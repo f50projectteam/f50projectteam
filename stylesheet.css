@@ -1,0 +1,74 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "cambria";
+}
+
+.container {
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+li {
+  list-style: none;
+  float: left;
+  padding: 33px 20px;
+}
+
+.header-logo {
+  float: left;
+}
+
+.header {
+  background-color: #26d0c9;
+  height: 90px;
+  color: #fff;
+}
+
+.header-logo {
+  padding: 20px 40px;
+  font-size: 36px;
+}
+
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url(image/images.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  color: #26d0c9;
+  text-align: center;
+}
+
+.top-wrapper h1 {
+  opacity: 0.7;
+  font-size: 45px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+}
+
+footer img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+}
+
+footer p {
+  color: white;
+  font-size: 25px;
+  text-align: center;
+}
+
+footer {
+  float: auto;
+  padding-top: 20px;
+  background-color: #26d0c9;
+
+}
